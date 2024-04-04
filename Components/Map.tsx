@@ -89,7 +89,7 @@ export default function Map({ Loc1, Loc2, speed, distance }: MapProps) {
   
       return () => clearInterval(interval);
     }
-  }, [Loc1, Loc2, speed, distance]);
+  }, [Loc1, Loc2, speed, distance,start]);
 
   return (
     <div className="w-[100vw] flex justify-center items-center  mt-[100px]">
